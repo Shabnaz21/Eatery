@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Flex:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Eatery Website</title>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/7278846ccf.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font style -->
+    <style>
+      .font-condensed {
+        font-family: "Roboto Condensed", sans-serif;
+      }
+      .font-flex {
+        font-family: "Roboto Flex", sans-serif;
+      }
+    </style>
+    <!-- custome style -->
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+        .background {
+          background-image: linear-gradient(
+            135deg,
+            rgba(255, 138, 0, 0.2) 0%,
+            #ffcfd2 100%
+          );
+        }
+        .primary {
+          background-color: #ff8a00;
+        }
+        .backstyle {
+          border-radius: 536.746px;
+          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+          backdrop-filter: blur(5px);
+          
+        }
+        
+      }
+    </style>
+  </head>
+  <body class="background py-20 px-10 lg:px-48">
+    <header>
+      <nav class="flex justify-between">
+        <div>
+          <h3 class="uppercase sm:text-2xl text-4xl font-condensed">
+            <span class="font-extrabold">Eat</span>ery
+          </h3>
+        </div>
+        <div>
+          <a href=""
+            ><i
+              class="fa-solid fa-grip-lines text-4xl"
+              style="color: #000000"
+            ></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <!--  -->
+        <div class="lg:flex lg:gap-10 mt-36 align-middle">
+          <div class="lg:mr-64 ">
+            <h1 class="font-condensed py-9 font-medium text-5xl">
+              Black Friday Program <br />
+              Coupon Opt-in
+            </h1>
+            <h3 class="font-flex font-bold py-5 text-2xl">
+              Take 30% off The Healthy Home Chef <br> Master’s Program
+            </h3>
+            <p class="font-flex text-base">
+              In this virtual series, you’ll learn how to plan, cook, and eat
+              healthy meals (on a budget and a time-crunch). <br />
+              We’re offering all our new students a 30% discount PLUS a free
+              bonus training video this Black Friday—that’s a savings of $500.
+              Don’t miss out!
+            </p>
+            <button class="btn primary rounded-full px-8 mt-9 text-white">
+              Get 30% Off
+            </button>
+          </div>
+          <div class="md:ml-14">
+            <div class="bg-gradient-to-r from-[#ffe176] to-[#ff7e76]
+            backstyle p-10 md:p-16 w-[350px] h-[350px] md:w-[600px] md:h-[600px] lg:w-[536px] lg:h-[536px]">
+            <img class="" src="images/Rectangle 2.png" alt="" />
+            <img class="mt-[-410px] mx-36  w-[200px] h-[200px] md:mt-[-620px] md:w-3/5 md:h-3/5 md:mx-[300px] lg:mt-[-550px] lg:mx-72" src="images/Rectangle 5.png" alt="">
+            <img class="mt-[130px] mx-36  w-[200px] h-[200px] md:mt-[180px] md:w-3/5 md:h-3/5 md:mx-[300px] lg:mt-[180px] lg:mx-72" src="images/Rectangle 4.png" alt="">
+        </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
